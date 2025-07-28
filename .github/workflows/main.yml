@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v4
       
     - name: maven Testing
-      run: mvn Testing
+      run: mvn test
 
     - name: maven checkstyle
       run: mvn checkstyle:checkstyle
